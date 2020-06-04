@@ -1,0 +1,232 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+li, ul, a {
+  list-style: none;
+  text-decoration: none;
+  color: #000; }
+
+button {
+  border: none;
+  outline: none; }
+
+input {
+  border: none; }
+
+.header-box {
+  position: relative;
+  width: 100%;
+  background-color: #ffffff; }
+  .header-box .nav-menu_block .container .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 20px 0; }
+    .header-box .nav-menu_block .container .menu li {
+      margin-left: 20px; }
+      .header-box .nav-menu_block .container .menu li a {
+        color: #5f5f5f;
+        font-size: 16px; }
+      .header-box .nav-menu_block .container .menu li a:hover {
+        color: #66afe9; }
+  .header-box .container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto; }
+    .header-box .container .header {
+      width: 100%;
+      border-bottom: solid 1px #dfdfdf;
+      background-color: #ffffff;
+      position: relative;
+      z-index: 40; }
+      .header-box .container .header .head {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 114px; }
+        .header-box .container .header .head .logo {
+          width: 502px; }
+          .header-box .container .header .head .logo .logo_image {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: baseline;
+            -ms-flex-align: baseline;
+            align-items: baseline; }
+            .header-box .container .header .head .logo .logo_image .logo_image1 {
+              width: 108px; }
+            .header-box .container .header .head .logo .logo_image .logo_image2 {
+              width: 375px; }
+          .header-box .container .header .head .logo .logo_text {
+            text-align: justify;
+            -moz-text-align-last: justify;
+            text-align-last: justify;
+            font-size: 14px;
+            font-weight: 400; }
+        .header-box .container .header .head .contacts {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          width: 335px; }
+          .header-box .container .header .head .contacts .contacts-item .city-tel {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            position: relative;
+            font-size: 14px;
+            padding-bottom: 3px;
+            cursor: pointer; }
+            .header-box .container .header .head .contacts .contacts-item .city-tel .city {
+              color: #5f5f5f; }
+            .header-box .container .header .head .contacts .contacts-item .city-tel .city:after {
+              content: "";
+              position: absolute;
+              top: 50%;
+              right: -20px;
+              display: block;
+              width: 8px;
+              height: 8px;
+              border-bottom: 2px solid #5f5f5f;
+              border-left: 2px solid #5f5f5f;
+              -webkit-transform: translateY(-65%) rotate(-45deg);
+              -ms-transform: translateY(-65%) rotate(-45deg);
+              transform: translateY(-65%) rotate(-45deg); }
+            .header-box .container .header .head .contacts .contacts-item .city-tel .tel {
+              padding: 2px 0 2px 10px;
+              height: 16px;
+              font-weight: 600;
+              background-color: #ffffff; }
+            .header-box .container .header .head .contacts .contacts-item .city-tel .hidden {
+              position: absolute;
+              z-index: -10;
+              top: 0;
+              opacity: 0;
+              -webkit-transition: all .3s;
+              -o-transition: all .3s;
+              transition: all .3s; }
+          .header-box .container .header .head .contacts .contacts-item .city-tel.show .hidden {
+            top: 20px;
+            opacity: 1;
+            z-index: 10;
+            background-color: #ffffff; }
+          .header-box .container .header .head .contacts .contacts-item .city-tel.show .city:after {
+            -webkit-transform: rotate(135deg);
+            -ms-transform: rotate(135deg);
+            transform: rotate(135deg); }
+          .header-box .container .header .head .contacts .mail a {
+            font-size: 14px;
+            color: #5f5f5f; }
+        .header-box .container .header .head .download {
+          border-radius: 25px;
+          border: 1px solid #004d8f;
+          padding: 15px 25px;
+          cursor: pointer; }
+          .header-box .container .header .head .download a {
+            color: #004d8f;
+            font-size: 14px;
+            font-weight: 700; }
+        .header-box .container .header .head .download:hover {
+          background-color: #004d8f; }
+          .header-box .container .header .head .download:hover a {
+            color: #ffffff; }
+        .header-box .container .header .head .menu-btn {
+          width: 49px;
+          height: 49px;
+          background-color: #ff4e4e;
+          border-radius: 50%;
+          position: relative;
+          cursor: pointer;
+          z-index: 99; }
+          .header-box .container .header .head .menu-btn span {
+            top: 23px;
+            display: block;
+            width: 21px;
+            height: 4px;
+            border-radius: 10px;
+            background-color: #fff;
+            position: absolute;
+            left: 50%;
+            right: 50%;
+            -webkit-transform: translateX(calc(50% - 21px));
+            -ms-transform: translateX(calc(50% - 21px));
+            transform: translateX(calc(50% - 21px)); }
+          .header-box .container .header .head .menu-btn span::before {
+            content: "";
+            bottom: 8px;
+            display: block;
+            width: 21px;
+            height: 4px;
+            border-radius: 10px;
+            background-color: #fff;
+            position: absolute; }
+          .header-box .container .header .head .menu-btn span::after {
+            content: "";
+            top: 8px;
+            display: block;
+            width: 21px;
+            height: 4px;
+            border-radius: 10px;
+            background-color: #fff;
+            position: absolute; }
+        .header-box .container .header .head .menu-btn.bt span {
+          background-color: transparent; }
+        .header-box .container .header .head .menu-btn.bt span:before {
+          bottom: 0;
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg); }
+        .header-box .container .header .head .menu-btn.bt span:after {
+          top: 0;
+          -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+  .header-box .nav-menu_block {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    bottom: 1px;
+    background: #ffffff;
+    opacity: 0; }
+  .header-box .nav-menu_block.open {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    bottom: -55px;
+    opacity: 1;
+    -webkit-box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2); }

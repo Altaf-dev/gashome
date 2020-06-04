@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="27.265mm" height="27.265mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2727 2727"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:#55C0EB}
+    .fil4 {fill:#E8EAE9}
+    .fil2 {fill:#F7B64C}
+    .fil0 {fill:#FF5D5E}
+    .fil1 {fill:#FFD15C}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1981887498016">
+   <rect class="fil0" x="443" y="233" width="312" height="591"/>
+   <rect class="fil1" x="256" y="1147" width="2221" height="1579"/>
+   <rect class="fil2" x="256" y="1147" width="2221" height="176"/>
+   <polygon class="fil3" points="977,1477 1750,1477 1750,2255 977,2255 "/>
+   <path class="fil4" d="M1772 2278l-818 0 0 -824 818 0 0 824zm-772 -46l721 0 0 -732 -721 0 0 732z"/>
+   <rect class="fil4" x="977" y="1840" width="772.518" height="45.4409"/>
+   <rect class="fil4" x="1341" y="1477" width="45.4409" height="778.196"/>
+   <g>
+    <polygon class="fil0" points="2727,1147 0,1147 1363,0 "/>
+    <rect class="fil0" x="358" y="51" width="483" height="261"/>
+   </g>
+  </g>
+ </g>
+</svg>
